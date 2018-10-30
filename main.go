@@ -23,6 +23,7 @@ func main() {
 	writer.Write([]string{"Alice", "20"})
 	writer.Write([]string{"Bob", "21"})
 	writer.Write([]string{"Carol", "22"})
+	writer.Write([]string{"Dave", "30"})
 	writer.Flush()
 
 	fmt.Println("success creating csv")
