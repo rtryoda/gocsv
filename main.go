@@ -24,4 +24,6 @@ func main() {
 	writer.Write([]string{"Bob", "21"})
 	writer.Write([]string{"Carol", "22"})
 	writer.Flush()
+
+	fmt.Println("success creating csv")
 }
